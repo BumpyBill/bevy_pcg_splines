@@ -1,10 +1,5 @@
 #import bevy_pbr::forward_io::VertexOutput
 
-// struct NormalsMaterial {
-// };
-
-// @group(1) @binding(0) var<uniform> material: NormalsMaterial;
-
 @fragment
 fn fragment(
     mesh: VertexOutput,
